@@ -77,11 +77,7 @@ mysql> SELECT * FROM Swiggy;
 +-----------+--------+-------+
 5 rows in set (0.00 sec)
 
-mysql> INSERT INTO Swiggy
-    -> ('Fried Rice', 4, 160),
-    -> ('Chicken Tikka', 5, 220);
-ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Fried Rice', 4, 160),
-('Chicken Tikka', 5, 220)' at line 2
+
 mysql> INSERT INTO Swiggy
     -> VALUES  ('Fried Rice', 4, 160),
     ->  ('Chicken Tikka', 5, 220);
